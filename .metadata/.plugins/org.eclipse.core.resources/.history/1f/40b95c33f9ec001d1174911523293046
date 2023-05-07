@@ -11,11 +11,11 @@ public class EspecialidadService {
 	@Autowired
 	private EspecialidadRepository especialidadRepository;
 	
-	public List<Especialidad> listarEspecialidad(){
+	public List<Especialidad> listarEstados(){
 		return especialidadRepository.findAll();
 	}
 	
-	public void registrarEspecialidad(Especialidad especialidad) {
+	public void registrarEstado(Especialidad especialidad) {
 		especialidadRepository.save(especialidad);
 	}
 }
