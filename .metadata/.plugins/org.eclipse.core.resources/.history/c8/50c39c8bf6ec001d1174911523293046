@@ -16,9 +16,8 @@
   </thead>
   <tbody>
     <tr th:each="estado :${listaEstado}">
-      <td th:text="${estado.codigo}"></td>
-      <td th:text="${estado.nombre}"></td>
-      <td th:text="${estado.costo}"></td>
+      <td th:text="${estado.idestado}"></td>
+      <td th:text="${estado.descestado}"></td>
     </tr>    
   </tbody>
 </table>
