@@ -1,0 +1,14 @@
+
+CREATE TABLE Especialidad (
+IdEsp CHAR(3) NOT NULL PRIMARY KEY,
+NomEsp VARCHAR(30) NOT NULL,
+Costo NUMERIC(8,1) NOT NULL
+);
+
+Insert Into Especialidad Values('E01','Educacion Informatica',2500);
+Insert Into Especialidad Values('E02','Administracion',1800);
+Insert Into Especialidad Values('E03','Contabilidad',2000);
+Insert Into Especialidad Values('E04','Idiomas',1800);
+Insert Into Especialidad Values('E05','Ingenier�a de Sistemas',2800);
+
+select * from Especialidad; 
